@@ -855,13 +855,17 @@
         "uuid": "56a175f5-4366-4bc8-b594-267ae81190c5"
       }
     ],
-    "used_designators": "J7-8,D2-9,C12-13,U3",
+    "used_designators": "R3-4,#FLG9-12,#PWR4-5,J6-9,D2-14,C12-18,U3-4",
     "variants": []
   },
   "sheets": [
     [
       "56a175f5-4366-4bc8-b594-267ae81190c5",
       "AudioPowerSupply_Acramonics"
+    ],
+    [
+      "7b05199b-4db6-47e1-b215-641448f87d1e",
+      "48V-Booster"
     ]
   ],
   "text_variables": {},
