@@ -8,7 +8,8 @@ This audio power supply is a simple 15-0-15V supply using a 12-0-12V
 transformer. It also provides a version with a 48V rail for phantom
 power.
 
-The design is very simple and based on ones from MKS and Douglas Self.
+The design is very simple and based on ones from MKS, Jake Rothman and
+Douglas Self.
 
 If using a 12-0-12V transformer, then you only need small heatsinks
 (as this will provide around 17-0-17V DC), but if using something like
