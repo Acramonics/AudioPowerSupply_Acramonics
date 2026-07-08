@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|102595000|125648305|a785a368-f92f-410e-85a5-139212a3cabc|c7c5c161-cc52-42d8-aa1b-d30ca7003e64",
+          ""
+        ],
+        [
+          "courtyards_overlap|110440070|113135000|55e0b86e-2312-4d1b-8e6d-537c8a6805a1|76ae2239-55ac-4349-ab35-9c05350656eb",
+          ""
+        ],
+        [
+          "courtyards_overlap|114655000|80115000|28870858-4620-48b5-900c-3c90e5a1ad1a|d8b75308-7bce-46d8-94d3-84b6f9f685a6",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -146,7 +159,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 1.0,
+        "min_clearance": 0.5,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -210,7 +223,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -855,7 +873,7 @@
         "uuid": "56a175f5-4366-4bc8-b594-267ae81190c5"
       }
     ],
-    "used_designators": "R3-4,#FLG9-12,#PWR4-5,J6-9,D2-14,C12-18,U3-4",
+    "used_designators": "R3-4,#FLG8-12,#PWR1-2,#PWR4-5,J2-3,J6-10,D2-14,C12-18,U3-4",
     "variants": []
   },
   "sheets": [
