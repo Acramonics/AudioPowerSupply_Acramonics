@@ -7132,52 +7132,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 176.53 60.96)
-		(size 12.7 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7b05199b-4db6-47e1-b215-641448f87d1e")
-		(property "Sheetname" "48V-Booster"
-			(at 176.53 60.2484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "48V-Booster.kicad_sch"
-			(at 176.53 66.6246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "AudioPowerSupply_Acramonics"
-				(path "/56a175f5-4366-4bc8-b594-267ae81190c5"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -5,10 +5,11 @@
 	(uuid "fc0b4ea4-5ef9-4bce-914e-c4dccdd469ac")
 	(paper "A4")
 	(title_block
-		(title "MHS PreAmp PSU")
-		(date "2025-09-24")
+		(title "Audio Power Supply")
+		(date "2026-07-09")
 		(rev "V1.0")
-		(company "Andrew Martin")
+		(company "Andrew Martin, acramonics")
+		(comment 1 "48V Booster")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
