@@ -714,7 +714,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./gerber",
+      "plot": "./gerber_AudioPowerSupply_acramonics",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
